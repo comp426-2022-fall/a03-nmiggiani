@@ -1,7 +1,7 @@
 {
   "name": "node-dice",
   "version": "1.0.0",
-  "description": "This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it.",
+  "description": "A03",
   "main": "./lib/roll.js",
   "scripts": {
     "test": "roll-dice --sides=10 --dice=2 --rolls = 3"
@@ -16,11 +16,11 @@
     "url": "https://github.com/comp426-2022-fall/a03-nmiggiani/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-nmiggiani#readme",
-  "dependencies": {
-    "minimist": "^1.2.7"
-  },
   "bin": {
     "roll-dice": "./bin/cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.7"
   },
   "type": "module"
 }
